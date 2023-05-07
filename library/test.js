@@ -26,7 +26,7 @@ ui.innerHTML = "ui not loading...";
 
 $(document).ready(function()
 {
-    $.get('./library/ui.html',function(data){
+    $.get('./library/ui.html', function(data) {
         ui.html(data);
         console.log("test library loaded");
     });
